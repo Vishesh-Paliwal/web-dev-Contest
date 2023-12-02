@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+nav{
+    height: 100vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    position: fixed; 
+    top: 20vh; 
+    left: 40px;
+    z-index: 2;
+}
+
+nav a img{
+    height: 30px;
+    width: 20px;
+    margin: 20px;
+}
+
+nav a img:hover{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(83, 83, 168);
+    border-radius: 500px;
+    transition-duration: .5s;
+}
+
+#background {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#background img {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.3; 
+}
+
+#content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 15vw; 
+    right: 0;
+    bottom: 0;
+}
+
+#text {
+    margin-left: 15px; 
+}
+
+#text h1 {
+    font-size: 4em; 
+}
+
+#text p {
+    font-size: 2em; 
+}
+
+#text div {
+    display: flex;
+    margin-top: 10px; 
+}
+
+#text img {
+    width: 20px; 
+    height: 20px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#text img:hover {
+    width: 30px; 
+    height: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgb(90, 90, 226);
+    border-radius: 100%;
+    transition-duration: .5s;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+}
+
+#upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#line{
+    margin-top: 15px;
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#upper h1{
+    margin-top: 30px;
+}
+
+#upper p{
+    width: 70vw;
+    line-height: 1.2rem;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+button ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#bottom img{
+    height: 60vh;
+    margin-left: 15vw;
+    margin-top: 3vh;
+}
+
+#content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+
+
+
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+}
+
+#page3 {
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/email-pattern.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#upper2 header{
+    margin-left: 50vw ;
+}
+
+ #upper2 {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#left-half,
+#right-half {
+    width: 100vw; /* Adjust as needed */
+    padding: 20px;
+}
+
+#left-half {
+    margin-right: 2%; /* Adjust as needed */
+    margin-top: 20%;
+}
+
+#right-half {
+    margin-left: 2%; /* Adjust as needed */
+    margin-top: 20%;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    line-height: 1.5;
+    color: #777;
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+}
+#page5{
+    height: 100vh;
+    width: 100vw;
+}
+#page6{
+    height: 100vh;
+    width: 100vw;
+}
+
+#halves{
+    height: 60vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 500px;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+}
+
+#line2{
+    margin-top: 15px;
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#page4 #top_part{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#selec{
+    width: 70vw;
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#selec h3:hover{
+    color: blue;
+    transition-duration: .3s;
+}
+
+#pics{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pics img{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+#pics img:hover{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border: solid yellow;
+    box-shadow: 10px 20px;
+    transition-duration: .3s;
+}
+
+#page5 #top_part{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page5 #cards{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cards div{
+    height: 250px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px 70px;
+}
+
+#cards div img{
+    height: 70px;
+    width: 70px;
+    border: solid rgb(34, 44, 31);
+    border-width: 4px;
+}
+
+#page5 #cards2{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cards2 div{
+    height: 250px;
+    width: 200px;
+    margin-left: 15px;
+    background-color: black;
+    border-radius: 20px 70px;
+}
+
+#cards2 div:hover{
+    border: solid yellow;
+    box-shadow: 10px 20px;
+    transition-duration: .3s;
+}
+
+#cards div:hover{
+    border: solid yellow;
+    box-shadow: 10px 20px;
+    transition-duration: .3s;
+}
+
+#cards2 div img{
+    height: 70px;
+    width: 70px;
+    border: solid rgb(34, 44, 31);
+    border-width: 4px;
+}
+
+#page5 p{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#page6 #top_part{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#page6 #contact-row{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page6 #contact-row #cont-col div{
+    margin: 30px;
+}
+
+#cont-form{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#mess{
+    height: 50px;
+    width: 450px;
+}
+
+#butt{
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(85, 109, 109);
+    color: white;
+}
+
+
+
